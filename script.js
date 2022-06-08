@@ -9,12 +9,11 @@ let firstName = 'hamza';
 console.log(firstName);
 
 // Conventions for variable name
-// let new = "saad";   //we can not use word new as variable name
-// let function = 'jamal'; //we can not use word function as variable name
+// let new = "saad";   //we can not use word new as variable name because this word is specified in JavaScript.
+// let function = 'jamal'; //we can not use word function as variable name because this word is specified in JavaScript.
 // let 3years = '2015' + '2016' + '2017';  //we can not use number as first letter in variable name.
 
 // We can use $, _, camelcase, number after any alphabet as variable name. 
-
 
 
 // Always use relevent variable names with respect to its value. so everyone can understand easily
