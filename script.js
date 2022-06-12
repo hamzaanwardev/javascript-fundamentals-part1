@@ -24,3 +24,5 @@ let myCurrentJob = 'Programmer';
 // Not Relevant because we don't know what is job1 and job2.
 let job1 = "Mercant Navy Officer";
 let job2 = "Programmer";
+
+// JavaScript VAriables
