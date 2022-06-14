@@ -38,8 +38,7 @@ console.log(firstName);
 // logical operators(&&, ||, !!)
 
 const birthday = "1998 was my birth year.";
-const birthYear = parseInt(birthday);
-    alert(birthYear);
+const birthYear = parseInt(birthday);;
 let century;
 if (birthYear <= 2000) {
     century = 20;
