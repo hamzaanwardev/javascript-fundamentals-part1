@@ -36,3 +36,15 @@ console.log(firstName);
 // comparison Operators (===, !==, ==, !=, <, >, <=, >=, )
 // Assignment Operators (=, +=, -=, *=, \=)
 // logical operators(&&, ||, !!)
+
+const birthday = "I was born in 1998";
+const birthYear = parseInt(birthday);
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(`I was born in ${century} century`);
