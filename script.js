@@ -26,3 +26,13 @@ let job1 = "Mercant Navy Officer";
 let job2 = "Programmer";
 
 // JavaScript VAriables
+// three types of variables 1. let  2. var  3. Const. MOstly used let and const because var is too old.
+firstName = "Muhammad";
+console.log(firstName);
+
+
+// Basic operators
+// Arthematic Operators (+, -, *, /)
+// comparison Operators (===, !==, ==, !=, <, >, <=, >=, )
+// Assignment Operators (=, +=, -=, *=, \=)
+// logical operators(&&, ||, !!)
