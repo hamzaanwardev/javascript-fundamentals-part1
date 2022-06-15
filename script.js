@@ -47,3 +47,10 @@ if (birthYear <= 2000) {
 }
 
 console.log(`I was born in ${century} century`);
+
+// Type Conversion and Type Coercion
+// Type Conversion Means when we convert data type from one type to another typeof. And type coercion means that when javascript automatically converts one data type to another.
+// we can covert a string into a number by using a Number() function 
+// we can convert a number into string by using string() function or method
+const myBirthYear = "1998";
+console.log(myBirthYear + 10);
