@@ -52,5 +52,11 @@ console.log(`I was born in ${century} century`);
 // Type Conversion Means when we convert data type from one type to another typeof. And type coercion means that when javascript automatically converts one data type to another.
 // we can covert a string into a number by using a Number() function 
 // we can convert a number into string by using string() function or method
+// Type Conversion
 const myBirthYear = "1998";
-console.log(myBirthYear + 10);
+console.log(Number(myBirthYear) + 24);
+console.log ('20'+10+'30');
+
+console.log(20+10+30);
+console.log(String(20)+10+30); //this is the type Coercion because javascript automatically last two numbers to string.
+
