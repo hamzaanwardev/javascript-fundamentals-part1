@@ -25,4 +25,9 @@ console.log(arifBmi);
 console.log(hamzaBmi);
 console.log(hamzaBmi < arifBmi);
 
+if (hamzaBmi >= arifBmi) {
+    console.log (`Hamza Has (${hamzaBmi}) higher BMI than Arif (${arifBmi}).`)
+}else {
+    console.log(`Arif has (${arifBmi}) higher BMI than Hamza (${hamzaBmi}).`);
+}
 
