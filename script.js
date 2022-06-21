@@ -60,3 +60,19 @@ console.log ('20'+10+'30');
 console.log(20+10+30);
 console.log(String(20)+10+30); //this is the type Coercion because javascript automatically last two numbers to string.
 
+// 5 falsy values in JavaScript 0, '', undefined, Null, NaN
+// we can not convert Falsy values to boolean.
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean('hamza'));
+console.log(Boolean({}));
+
+// Using A falsy value in example
+const money = 0;
+if (money) {
+    console.log("Don't Spend it all");
+}else {
+    console.log('You should get a job!');
+}
+
+// Truthy Values And Falsy Values
