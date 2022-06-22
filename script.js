@@ -76,3 +76,4 @@ if (money) {
 }
 
 // Truthy Values And Falsy Values
+// Falsy VAlues are 0, 
