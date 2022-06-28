@@ -76,4 +76,12 @@ if (money) {
 }
 
 // Truthy Values And Falsy Values
-// Falsy VAlues are 0, Null, Undefined
+// Falsy VAlues are 0, Null, Undefined, '', NaN.
+
+// Logical Operators
+// AND, OR, NOT
+
+const xyz = 5;
+if (xyz === "5" && xyz ==5) {
+    console.log ("And Opreator Both Conditions should be true.")
+}
