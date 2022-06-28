@@ -82,6 +82,21 @@ if (money) {
 // AND, OR, NOT
 
 const xyz = 5;
-if (xyz === "5" && xyz ==5) {
-    console.log ("And Opreator Both Conditions should be true.")
+if (xyz === "5" && xyz == 5) {
+    console.log ("And Opreator Both Conditions are true.")
+} else {
+    console.log ("And Operator Both Conditions are not True")
 }
+
+if (xyz === "5" || xyz == 5){
+console.log ("OR Opreator One Conditions is true.")
+} else {
+    console.log ("OR Operator One Conditions is not True")
+}
+
+
+if (xyz !== "5" && xyz == 5){
+    console.log ("And Opreator Both Conditions are true. by using NOT Operator")
+    } else {
+        console.log ("And Operator Both Conditions are not True")
+    }
