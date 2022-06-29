@@ -10,7 +10,7 @@ console.log();
 document.write("I am from " + country + "." + " Our continent is " + continent + "." + " " + country + " have " + population + " Crore" + " Population" + "." + "<br>");
 document.write(`I am from ${country}. Our continent is ${continent}. ${country} have ${population} Crore Population.`);
 
-// BMI 
+// Code Challenge 2 (BMI) 
 
 const hamzaMass = 92;
 const hamzaHeight = 1.95;
@@ -31,3 +31,12 @@ if (hamzaBmi >= arifBmi) {
     console.log(`Arif has (${arifBmi}) higher BMI than Hamza (${hamzaBmi}).`);
 }
 
+// Code Challenge 3
+const dolphins__score = 96 + 108 + 89;
+const koalas__score = 88 + 91 + 110;
+
+const average__dolphins__score = dolphins__score / 3;
+const average__koalas__score = koalas__score / 3;
+
+console.log(`Average Dolphins Score Is  (${average__dolphins__score}).`);
+console.log(`Average Koalas Score Is  (${average__koalas__score}).`);
