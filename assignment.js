@@ -40,3 +40,31 @@ const average__koalas__score = koalas__score / 3;
 
 console.log(`Average Dolphins Score Is  (${average__dolphins__score}).`);
 console.log(`Average Koalas Score Is  (${average__koalas__score}).`);
+
+if (average__dolphins__score > average__koalas__score) {
+    console.log ("Team Dolphin is the Winner");
+}else if (average__dolphins__score < average__koalas__score) {
+    console.log ("Team Koalas is the winner");
+}else if(average__dolphins__score === average__koalas__score){
+    console.log("Both Teams got equal Score. And Both Are The winner.");
+}
+
+// Bonus 1
+const bdolphins__score = 97 + 112 + 110;
+const bkoalas__score = 109 + 95 + 106;
+
+const baverage__dolphins__score = bdolphins__score / 3;
+const baverage__koalas__score = bkoalas__score / 3;
+
+console.log(`Average Dolphins Score Is  (${baverage__dolphins__score}).`);
+console.log(`Average Koalas Score Is  (${baverage__koalas__score}).`);
+
+if (baverage__dolphins__score > baverage__koalas__score && baverage__dolphins__score >= 100) {
+    console.log ("Team Dolphin is the Winner");
+}else if (baverage__dolphins__score < baverage__koalas__score && baverage__dolphins__score >= 100) {
+    console.log ("Team Koalas is the winner");
+}else if(baverage__dolphins__score === baverage__koalas__score && baverage__dolphins__score >= 100 && baverage__koalas__score >= 100){
+    console.log("Both Teams got equal Score. And Both Are The winner.");
+} else {
+    console.log ("No One is the Winner");
+}
