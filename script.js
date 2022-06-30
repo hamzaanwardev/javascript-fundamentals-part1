@@ -97,6 +97,14 @@ console.log ("OR Opreator One Conditions is true.")
 
 if (xyz !== "5" && xyz == 5){
     console.log ("And Opreator Both Conditions are true. by using NOT Operator")
-    } else {
-        console.log ("And Operator Both Conditions are not True")
-    }
+} else {
+    console.log ("And Operator Both Conditions are not True")
+}
+
+// Switch Statement
+const week__day = 'Thursday';
+
+switch (new Date().getDay()) {
+    case 'monday':
+        console.log("Week First DAy")
+}
