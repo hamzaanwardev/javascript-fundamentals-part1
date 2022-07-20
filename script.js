@@ -102,9 +102,30 @@ if (xyz !== "5" && xyz == 5){
 }
 
 // Switch Statement
-const week__day = 'Thursday';
-
+// const week__day = 'Thursday';
 switch (new Date().getDay()) {
-    case 'monday':
-        console.log("Week First DAy")
+    case 1:
+        console.log("Week First DAy monday");
+        break;
+        case 2:
+        console.log("Week secound DAy tuesday");
+        break;
+        case 3:
+        console.log("Week Third DAy wednesday");
+        break;
+        case 4:
+        console.log("Week forth DAy thursday");
+        break;
+        case 5:
+        console.log("Week Fifth DAy friday");
+        break;
+        case 6:
+        console.log("Week Sixth DAy saturday");
+        break;
+        case 7:
+        console.log("Week Seventh DAy sunday");
+        break;
+        
+        default:
+            console.log("Enter correct day.")
 }
