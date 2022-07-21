@@ -125,7 +125,6 @@ switch (new Date().getDay()) {
         case 7:
         console.log("Week Seventh DAy sunday");
         break;
-        
         default:
             console.log("Enter correct day.")
 }
